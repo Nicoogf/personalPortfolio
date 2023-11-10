@@ -2,86 +2,103 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import spotifyclone from "@/public/spotifyclon.jpg" ;
 
 export const links = [
   {
-    name: "Home",
+    name: "Inicio",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Me",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Proyectos",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Stack",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiencia",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contacto",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Tecnico en Administracion de empresas",
+    location: "Intituto de Formacion Tecnica n°7",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Capacitado en gestión y estrategia empresarial.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2015-2018",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Administrativo",
+    location: "Vika",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Atención y asesoramiento al cliente.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2019",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Asesor Comercial",
+    location: "Telecom",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Asesoramiento a clientes y venta de intangibles.",
+      icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2022",
+  },
+  {
+    title: "Desarrollador Full-Stack | Finalizada",
+    location: "Digital House",
+    description:
+      "Introduccion al Desarrollo Web (Javascript-Node Js-Expres-React Js-Programacion orientada a objetos).",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022",
+  },
+  {
+    title: "Coordinador de Ventas",
+    location: "Interfas",
+    description:
+      "Asesoramiento a clientes y coordinacion de agenda de Servicio Tecnico.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023",
+  },
+  {
+    title: "Desarrollador Full-Stack | Finalizada",
+    location: "Universidad Tecnologica Nacional",
+    description:
+      "Capacitacion sobre Bases de datos , JavaScript , React.js , Node.js.",
+    icon: React.createElement(FaReact),
+    date: "2023",
+  },
+  {
+    title: "Especialización Frontend | En Curso",
+    location: "Digital House",
+    description:
+      "Dominio en React.js , Next.js , Redux , Typescript , PowerBI , MongoDB.",
+    icon: React.createElement(FaReact),
+    date: "2023 - 2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Spotify ClonApp",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+      "Tome el desafio con Tailwind CSS de copiar su diseño tan conocido por su elegancia y minimalismo, con una paleta de colores fresca y moderna.",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: spotifyclone,
+    link: "https://64ff390505e2891c04d49721--inquisitive-kheer-6f9b50.netlify.app/"
+  }
 ] as const;
 
 export const skillsData = [
@@ -94,14 +111,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
